@@ -16,3 +16,12 @@
 @import 'components/second-section';
 @import 'components/third-section';
 @import 'components/content-container';
+
+body {
+    background-image: url(images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+
+    @media screen and (min-width: 375px) {
+        background-image: url(images/bg-header-desktop.png);
+    }
+}
