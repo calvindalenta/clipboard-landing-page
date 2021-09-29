@@ -8,6 +8,6 @@
 @include bigger-than-1024px {
     .companies {
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
     }
 }

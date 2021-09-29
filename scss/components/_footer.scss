@@ -1,20 +1,26 @@
 .footer {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    gap: 2em;
+    width: 100%;
+    padding-block: 2em;
+    background-color: lightgrey;
+
+    &__content {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 2em;
+    }
 
     &__image {
         width: 4em;
     }
-
+    
     &__links {
         display: grid;
         justify-items: center;
         gap: 1.5em;
         list-style-type: none;
     }
-
+    
     &__socials {
         display: flex;
         gap: 2em;
@@ -23,10 +29,12 @@
 
 @include bigger-than-1024px {
     .footer {
-        border: 1px solid black;
-        grid-template-columns: auto 1fr auto;
-        justify-content: space-between;
-        align-items: center;
+        &__content {
+            // border: 1px solid black;
+            grid-template-columns: auto 1fr auto;
+            justify-content: space-between;
+            align-items: center;
+        }
 
         &__links {
             grid-template-columns: 1fr 1fr 1fr;

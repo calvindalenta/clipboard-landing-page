@@ -3,3 +3,9 @@
     display: grid;
     gap: 5em;
 }
+
+@include bigger-than-1024px {
+    .container {
+        margin-bottom: 0;
+    }
+}
