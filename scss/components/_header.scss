@@ -22,6 +22,12 @@
         gap: 1em;
     }
 
+    &--middle {
+        width: 90%;
+        margin-inline: auto;
+        // border: 1px solid black;
+    }
+
     
 }
 
@@ -31,7 +37,6 @@
         
         &--middle {
             width: 50%;
-            margin-inline: auto;
         }
 
         &__cta {
