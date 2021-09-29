@@ -1,0 +1,22 @@
+.footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 2em;
+
+    &__image {
+        width: 4em;
+    }
+
+    &__links {
+        display: grid;
+        justify-items: center;
+        gap: 1.5em;
+        list-style-type: none;
+    }
+
+    &__socials {
+        display: flex;
+        gap: 2em;
+    }
+}
