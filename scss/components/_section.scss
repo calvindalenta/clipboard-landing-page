@@ -1,0 +1,10 @@
+.section {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+
+    &__content {
+        margin-top: 3em;
+    }
+}
