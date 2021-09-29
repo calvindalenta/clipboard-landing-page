@@ -1,0 +1,6 @@
+.social {
+    cursor: pointer;
+    &:hover {
+        border-inline: 3px solid $strong-cyan;
+    }
+}
