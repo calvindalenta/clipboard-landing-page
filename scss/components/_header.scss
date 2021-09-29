@@ -28,7 +28,9 @@
         // border: 1px solid black;
     }
 
-    
+    &__cta {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 300px));
+    }
 }
 
 @include bigger-than-1024px {
@@ -39,8 +41,6 @@
             width: 50%;
         }
 
-        &__cta {
-            grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
-        }
+        
     }
 }
