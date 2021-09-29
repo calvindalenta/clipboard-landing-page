@@ -22,3 +22,15 @@
         gap: 1em;
     }
 }
+
+@include bigger-than-1024px {
+    .header {
+        border: 1px solid black;
+        width: 50%;
+        margin: auto;
+
+        &__cta {
+            grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
+        }
+    }
+}
