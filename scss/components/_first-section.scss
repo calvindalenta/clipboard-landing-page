@@ -1,3 +1,12 @@
-.first_section {
-    
+@include bigger-than-1024px {
+    .first-section {
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+        gap: 5em;
+
+        &__content {
+            text-align: left;
+            width: 50%;
+        }
+    }
 }
