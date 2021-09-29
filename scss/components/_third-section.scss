@@ -1,0 +1,11 @@
+@include bigger-than-1024px {
+    .third-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & > * {
+            flex: 1;
+        }
+    }
+}
