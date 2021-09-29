@@ -1,6 +1,14 @@
+.first-section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+
+    border: 1px solid black;
+}
+
 @include bigger-than-1024px {
     .first-section {
-        display: grid;
         grid-template-columns:  1fr 1fr;
         gap: 5em;
 
