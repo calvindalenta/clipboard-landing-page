@@ -5,16 +5,23 @@
     justify-items: center;
 
     border: 1px solid black;
+
+    &__image {
+        object-fit: fill;
+    }
 }
 
 @include bigger-than-1024px {
     .first-section {
         grid-template-columns:  1fr 1fr;
         gap: 5em;
+        justify-items: left;
 
         &__content {
             text-align: left;
-            width: 50%;
+            width: 70%;
+            // border: 1px solid black;
+
         }
     }
 }
