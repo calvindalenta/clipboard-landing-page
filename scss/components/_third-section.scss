@@ -2,7 +2,8 @@
     .third-section {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
+        gap: 3em;
 
         & > * {
             flex: 1;
