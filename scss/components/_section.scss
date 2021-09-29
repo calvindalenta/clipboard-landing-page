@@ -4,6 +4,11 @@
     grid-template-columns: 1fr;
     gap: 1em;
 
+    &__title {
+        font-size: 1.8em;
+        margin-bottom: 0.5em;
+    }
+
     &__content {
         margin-top: 3em;
     }
