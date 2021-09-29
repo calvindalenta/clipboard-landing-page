@@ -9,10 +9,18 @@
     &--green {
         background-color: $strong-cyan;
         box-shadow: 0 3px darken($strong-cyan, 10%);
+
+        &:hover {
+            background-color: lighten($strong-cyan, 10%);
+        }
     }
 
     &--purple {
         background-color: $light-blue;
         box-shadow: 0 3px darken($light-blue, 10%);
+
+        &:hover {
+            background-color: lighten($light-blue, 10%);
+        }
     }
 }
