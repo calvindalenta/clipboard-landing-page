@@ -4,3 +4,10 @@
     align-items: center;
     gap: 4em;
 }
+
+@include bigger-than-1024px {
+    .companies {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
