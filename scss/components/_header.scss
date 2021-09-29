@@ -2,6 +2,8 @@
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
+    text-align: center;
+    gap: 1em;
 
     &__title {
         margin-top: 1em;
@@ -12,6 +14,11 @@
     }
 
     &__cta {
+        width: 100%;
         margin-top: 1em;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 1em;
     }
 }
