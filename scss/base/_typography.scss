@@ -2,3 +2,12 @@ body {
     font-size: 18px;
     font-family: 'Bai Jamjuree', sans-serif;
 }
+
+h1, h2, h3 {
+    color: $dark-grayish-blue;
+}
+
+p {
+    color: $grayish-blue;
+    font-weight: 600;
+}
