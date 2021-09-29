@@ -1,0 +1,15 @@
+.button {
+    padding: 1em 1.5em;
+    border-radius: 1.5em;
+    border: none;
+    color: white;
+    font-weight: 600;
+
+    &--green {
+        background-color: $strong-cyan;
+    }
+
+    &--purple {
+        background-color: $light-blue;
+    }
+}
