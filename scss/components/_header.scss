@@ -1,0 +1,17 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+
+    &__title {
+        margin-top: 1em;
+    }
+
+    &__desc {
+        margin-block: 0.5em;
+    }
+
+    &__cta {
+        margin-top: 1em;
+    }
+}
