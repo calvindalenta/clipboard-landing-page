@@ -20,3 +20,18 @@
         gap: 2em;
     }
 }
+
+@include bigger-than-1024px {
+    .footer {
+        border: 1px solid black;
+        grid-template-columns: auto 1fr auto;
+        justify-content: space-between;
+        align-items: center;
+
+        &__links {
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            justify-items: start;
+        }
+    }
+}
